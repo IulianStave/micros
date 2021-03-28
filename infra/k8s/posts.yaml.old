@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: posts
+spec:
+  containers:
+    - name: posts
+      image: iulianstave/posts:0.0.1
+      imagePullPolicy: Never
+
